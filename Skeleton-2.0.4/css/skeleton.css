@@ -152,8 +152,15 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
     background-color:#121212;
     background: rgba(0,0,0, .5);
   }
-  h2 { font-size: 4.2rem; }
-  h3 { font-size: 3.6rem; }
+  h2 {
+    font-size: 4.2rem;
+    font-weight: 700; }
+  h3 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    background-color:#121212;
+    background: rgba(0,0,0, .5);
+  }
   h4 {
     font-size: 3.0rem;
     font-weight: 700;
@@ -176,7 +183,7 @@ a {
 }
 a:hover {
   color: #FBC02D;
- text-decoration: underline;}
+ text-decoration: none;}
 
 
 /* Buttons
@@ -323,6 +330,9 @@ li {
   padding-right: 30px;
 }
 
+li:hover{
+  text-decoration: underline;
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -421,7 +431,7 @@ hr {
 }
 
 .hero-img {
-  margin-top: 2.5%;
+  margin: 0 auto;
   max-width: 100%;
   position: absolute;
 }
