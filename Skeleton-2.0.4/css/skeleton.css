@@ -430,6 +430,10 @@ hr {
 
 }
 
+.hero{
+  color: purple;
+}
+
 .hero-img {
   margin: 0 auto;
   max-width: 100%;
@@ -466,6 +470,22 @@ hr {
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }*/
+
+
+.midsection1{
+  color: green;
+}
+
+.midsection2{
+  color: blue;
+}
+
+.footer{
+  bottom:0;
+  color: red;
+}
+
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
