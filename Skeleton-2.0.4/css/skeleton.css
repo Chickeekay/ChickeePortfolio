@@ -426,7 +426,7 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .logo {
   position: relative;
-  max-width: 25px;
+  max-width: 50px;
 
 }
 
@@ -435,6 +435,16 @@ hr {
   max-width: 100%;
   position: absolute;
 }
+
+/*Third attempt to make hero image strech out.*/
+/*.hero-img {
+  background-image: url (../image/images/Chickee Logo- White-02.png)
+  height: 70%auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
 
 .centered {
   position: absolute;
@@ -447,6 +457,7 @@ hr {
   position: relative;
   max-width: 100%;
 }
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
