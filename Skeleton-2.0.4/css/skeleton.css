@@ -131,6 +131,13 @@ body {
   background-color: #121212;
 }
 
+/*Chickee start*/
+ /*body, html {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }*/
+/*Chickee end*/
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -185,7 +192,8 @@ a {
 }
 a:hover {
   color: #FBC02D;
- text-decoration: none;}
+ text-decoration: none;
+}
 
 
 /* Buttons
@@ -211,7 +219,8 @@ input[type="button"] {
   border-radius: 4px;
   border: 3px solid white;
   cursor: pointer;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+ }
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -433,12 +442,11 @@ hr {
 }
 
 .hero{
-  color: aqua;
-}
-
-.hero-img {
-  width: 100%;
-  position: absolute;
+  position:relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../images/background_triangle_black_yellow.png) no-repeat center;
+  background-size: cover;
 }
 
 .last-section-img {
@@ -446,15 +454,6 @@ hr {
   position: absolute;
   padding-bottom: 5%;
 }
-/*Third attempt to make hero image strech out.*/
-/*.hero-img {
-  background-image: url (../image/images/Chickee Logo- White-02.png)
-  height: 70%auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}*/
 
 .showcase-img{
   position: relative;
@@ -472,18 +471,22 @@ hr {
 
 
 .midsection1{
-  color: green;
 }
 
 .centered-text{
-  margin-top: 15%;
+  margin: 10% 25%;
   text-align: center;
 }
 .midsection2{
-  color: blue;
+  position:relative;
+  height: 300px;
+  overflow: hidden;
+  background: url(../images/background_triangle_black_yellow.png) no-repeat center;
+  background-size: cover;
+  margin: 100px 0px 0px 0px;
 }
 
-.footer{
+/*.footer{
   padding-top: 15px;
   background-color: blue;
   color: red;
@@ -491,13 +494,24 @@ hr {
   bottom: 0;
   clear: both;
 
+}*/
+
+.footer{
+  padding-top: 25px;
+  /*background-color: blue;*/
+  position: relative;
+  bottom: 0px;
+  clear: both;
 }
 
 i{
   font-size:25px;
   color: white;
 }
-
+i:hover {
+  color: #FBC02D;
+  text-decoration: none;
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -516,6 +530,15 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
+
+/*Chickee start- attempts fixing the size of the background image*/
+/* Larger than tablet */
+/*@media (max-width: 750px) {
+  .hero{
+    height: 250px;
+  }
+}*/
+/**/
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
