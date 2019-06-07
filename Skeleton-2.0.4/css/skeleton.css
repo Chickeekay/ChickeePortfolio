@@ -449,12 +449,6 @@ hr {
   background-size: cover;
 }
 
-.last-section-img {
-  width: 100%;
-  position: absolute;
-  padding-bottom: 5%;
-}
-
 .showcase-img{
   position: relative;
   max-width: 100%;
@@ -511,6 +505,15 @@ i{
 i:hover {
   color: #FBC02D;
   text-decoration: none;
+}
+
+.about-img{
+  position: relative;
+  height: 200px;
+}
+
+.right{
+  text-align: right;
 }
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
