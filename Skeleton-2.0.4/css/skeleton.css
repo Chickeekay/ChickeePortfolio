@@ -541,6 +541,21 @@ form-box{
   width: 100%;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
+.yellow{
+  color: #FFF59D;
+}
+
+.red{
+  color: #EF9A9A;
+}
+
+.blue{
+  color: #90CAF9;
+}
 /*Autofill Settings*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
