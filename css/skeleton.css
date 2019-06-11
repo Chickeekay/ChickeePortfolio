@@ -544,6 +544,7 @@ form-box{
   text-decoration: underline;
 }
 
+/*Text coloring*/
 .yellow{
   color: #FFF59D;
 }
@@ -555,6 +556,7 @@ form-box{
 .blue{
   color: #90CAF9;
 }
+
 /*Autofill Settings*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
