@@ -131,14 +131,6 @@ body {
   background-color: #121212;
 }
 
-/*Chickee start*/
- /*body, html {
-   height: 100%;
-   margin: 0;
-   padding: 0;
- }*/
-/*Chickee end*/
-
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
@@ -470,6 +462,11 @@ hr {
   max-width: 100%;
 }
 
+.showcase-img-left{
+  position: relative;
+  max-width: 100%;
+}
+
 .centered-text{
   margin: 10% 12.5%;
   text-align: center;
@@ -516,15 +513,6 @@ i:hover {
 
 .right{
   text-align: right;
-}
-
-.border-img{
-  position:relative;
-  height: 100px;
-  overflow: hidden;
-  background: url(../images/background_triangle_black_yellow.png) no-repeat center;
-  background-size: cover;
-  margin: 0px 0px 0px 0px;
 }
 
 iframe{
@@ -575,39 +563,7 @@ there.
 */
 
 
-/* Larger than mobile */
-@media (max-width: 500px) {
 
-.navigation{
-  margin-top: -50px;
-}
-
-.hero{
-  height: 400px;
-}
-
-.centered-text{
-  margin: 10% 5%;
-  text-align: center;
-}
-
-/*.hero-button{
-  margin-top: 20px;
-}*/
-.lastsection{
-  height: 180px;
-  background-size: contain;
-}
-
-.about-img{
-  height:160px;
-}
-
-.footnav{
-  margin-top: -30px;
-
-}
-}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
@@ -629,3 +585,97 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+  /* Larger than mobile */
+@media (max-width: 500px) {
+
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }
+
+  h1 {
+    font-size: 4.0rem;
+    font-weight: 700;
+    background-color:#121212;
+    background: rgba(0,0,0, .5);
+  }
+  h2 {
+    font-size: 3.4rem;
+  }
+  h3 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    background-color:#121212;
+    background: rgba(0,0,0, .5);
+  }
+  h4 {
+    font-size: 2.4rem;
+    font-weight: 700;
+   }
+  h5 { font-size: 2rem;
+    background-color:#121212;
+    background: rgba(0,0,0, .5);
+  }
+  h6 { font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin-top: 0; }
+
+  .navigation{
+    margin-top: -50px;
+  }
+
+  .hero{
+    height: 400px;
+  }
+
+  .centered-text{
+    margin: 10% 5%;
+    text-align: center;
+  }
+/*
+a.button{
+  margin-top: 20px;
+}*/
+
+.mobile{
+
+}
+  .form{
+    margin-bottom:100px;
+  }
+  .lastsection{
+    position:relative;
+    height: 180px;
+    overflow: hidden;
+    background: url(../images/background_triangle_black_yellow.png) no-repeat center;
+    background-size: 800px;
+    back
+  }
+
+  .about-img{
+    height:160px;
+  }
+
+.five.columns {
+  margin-top: -100px;
+  background-color: green;
+}
+
+img.showcase-img-left{
+  background-color:red;
+}
+
+/*Attempt: https://stackoverflow.com/questions/9746166/reshuffling-the-display-order-of-divs-based-on-css-media-query*/
+/*.container { width: 100%; overflow: hidden; clear: both;}
+
+.row img { float: left; }
+.row:nth-of-type(even)img.showcase-img-left { float: right;
+background-color:red;}*/
+
+  .footnav{
+    margin-top: -30px;
+  }
+  }
