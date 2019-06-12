@@ -22,7 +22,7 @@
 - Spacing
 - Utilities
 - Clearing
-- Media Queries
+-  Queries
 */
 
 
@@ -44,14 +44,14 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@ (min-width: 400px) {
   .container {
     width: 85%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
-@media (min-width: 550px) {
+@ (min-width: 550px) {
   .container {
     width: 80%; }
   .column,
@@ -146,7 +146,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
-@media (min-width: 550px) {
+@ (min-width: 550px) {
   h1 {
     color: white;
     font-size: 5.0rem;
@@ -553,44 +553,21 @@ input:-webkit-autofill:active  {
     -webkit-box-shadow: 0 0 0 30px #121212 inset !important;
     -webkit-text-fill-color: white !important;
 }
-/* Media Queries
+/*  Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
-Note: The best way to structure the use of media queries is to create the queries
+Note: The best way to structure the use of  queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
 
-
-
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/*Chickee start- attempts fixing the size of the background image*/
-/* Larger than tablet */
-/*@media (max-width: 750px) {
-  .hero{
-    height: 250px;
-  }
-}*/
-/**/
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
   /* Larger than mobile */
-@media (max-width: 500px) {
-
+@ (max-width: 500px) {
   h1, h2, h3, h4, h5, h6 {
-    color: white;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
   }
 
   h1 {
@@ -612,16 +589,19 @@ there.
     font-size: 2.4rem;
     font-weight: 700;
    }
-  h5 { font-size: 2rem;
+  h5 {
+    font-size: 2rem;
     background-color:#121212;
     background: rgba(0,0,0, .5);
   }
-  h6 { font-size: 1.5rem;
+  h6 {
+    font-size: 1.5rem;
   }
 
   p {
     font-size: 1.5rem;
-    margin-top: 0; }
+    margin-top: 0;
+  }
 
   .navigation{
     margin-top: -50px;
@@ -635,47 +615,40 @@ there.
     margin: 10% 5%;
     text-align: center;
   }
-/*
-a.button{
-  margin-top: 20px;
-}*/
 
-.mobile{
-
-}
-  .form{
-    margin-bottom:100px;
-  }
   .lastsection{
     position:relative;
     height: 180px;
     overflow: hidden;
     background: url(../images/background_triangle_black_yellow.png) no-repeat center;
     background-size: 800px;
-    back
   }
 
   .about-img{
     height:160px;
   }
 
-.five.columns {
-  margin-top: -100px;
-  background-color: green;
-}
+  .five.columns {
+    background-color: green;
+  }
 
-img.showcase-img-left{
-  background-color:red;
-}
-
-/*Attempt: https://stackoverflow.com/questions/9746166/reshuffling-the-display-order-of-divs-based-on-css-media-query*/
-/*.container { width: 100%; overflow: hidden; clear: both;}
-
-.row img { float: left; }
-.row:nth-of-type(even)img.showcase-img-left { float: right;
-background-color:red;}*/
+  img.showcase-img-left {
+    background-color:red;
+  }
 
   .footnav{
     margin-top: -30px;
   }
-  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@ (min-width: 550px) {}
+
+/* Larger than tablet */
+@ (min-width: 750px) {}
+
+/* Larger than desktop */
+@ (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@ (min-width: 1200px) {}
