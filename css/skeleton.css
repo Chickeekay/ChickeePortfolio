@@ -576,7 +576,38 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (max-width: 500px) {
+
+.navigation{
+  margin-top: -50px;
+}
+
+.hero{
+  height: 400px;
+}
+
+.centered-text{
+  margin: 10% 5%;
+  text-align: center;
+}
+
+/*.hero-button{
+  margin-top: 20px;
+}*/
+.lastsection{
+  height: 180px;
+  background-size: contain;
+}
+
+.about-img{
+  height:160px;
+}
+
+.footnav{
+  margin-top: -30px;
+
+}
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
