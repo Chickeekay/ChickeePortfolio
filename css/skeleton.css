@@ -22,7 +22,7 @@
 - Spacing
 - Utilities
 - Clearing
--  Queries
+- Media Queries
 */
 
 
@@ -44,14 +44,14 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@ (min-width: 400px) {
+@media (min-width: 400px) {
   .container {
     width: 85%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
-@ (min-width: 550px) {
+@media (min-width: 550px) {
   .container {
     width: 80%; }
   .column,
@@ -146,7 +146,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
-@ (min-width: 550px) {
+@media(min-width: 550px) {
   h1 {
     color: white;
     font-size: 5.0rem;
@@ -562,8 +562,8 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-  /* Larger than mobile */
-@ (max-width: 500px) {
+/* Larger than mobile */
+@media (max-width: 500px) {
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 2rem;
@@ -642,13 +642,13 @@ there.
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@ (min-width: 550px) {}
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
-@ (min-width: 750px) {}
+@media (min-width: 750px) {}
 
 /* Larger than desktop */
-@ (min-width: 1000px) {}
+@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@ (min-width: 1200px) {}
+@media (min-width: 1200px) {}
