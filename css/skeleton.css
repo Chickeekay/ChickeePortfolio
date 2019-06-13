@@ -462,11 +462,6 @@ hr {
   max-width: 100%;
 }
 
-.showcase-img-left{
-  position: relative;
-  max-width: 100%;
-}
-
 .centered-text{
   margin: 10% 12.5%;
   text-align: center;
@@ -545,6 +540,11 @@ form-box{
   color: #90CAF9;
 }
 
+.project-img{
+  order: 1;
+  background-color: green;
+}
+
 /*Autofill Settings*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -609,11 +609,17 @@ there.
     background-color: green;
   }*/
 
-.row{
-  background-color: blue;
-  display:grid;
-  grid-template-columns: repeat (auto)
-}
+  .row{
+    /*background-color: blue;*/
+    display:grid;
+    grid-template-columns: repeat (auto)
+  }
+
+  .project-img{
+    order: 1;
+    background-color: red;
+  }
+/*
   .row .five.columns:nth-of-type(1) {
     order:2;
     background-color: green;
@@ -632,7 +638,7 @@ there.
   .row .seven.columns:nth-of-type(4) {
     order:2;
     background-color: yellow;
-  }
+  }*/
 
   /*img.showcase-img-left {
     background-color:red;
