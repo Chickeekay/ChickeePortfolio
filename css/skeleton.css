@@ -540,11 +540,6 @@ form-box{
   color: #90CAF9;
 }
 
-.project-img{
-  order: 1;
-  background-color: green;
-}
-
 /*Autofill Settings*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -563,7 +558,7 @@ there.
 */
 
 /* Larger than mobile */
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 
   /*.container { width: 90%; overflow: hidden; clear: both;}*/
 
@@ -603,46 +598,14 @@ there.
     height:160px;
   }
 
-  /*.five.columns:nth-of-type(1) {
-    position:relative;
-    left:200%;
-    background-color: green;
-  }*/
-
-  .row{
-    /*background-color: blue;*/
+  .row {
     display:grid;
     grid-template-columns: repeat (auto)
   }
 
   .project-img{
     order: 1;
-    background-color: red;
   }
-/*
-  .row .five.columns:nth-of-type(1) {
-    order:2;
-    background-color: green;
-  }
-
-  .row .seven.columns:nth-of-type(2) {
-    order:1;
-    background-color: orange;
-  }
-
-  .row .five.columns:nth-of-type(3) {
-    order:1;
-    background-color: purple;
-  }
-
-  .row .seven.columns:nth-of-type(4) {
-    order:2;
-    background-color: yellow;
-  }*/
-
-  /*img.showcase-img-left {
-    background-color:red;
-  }*/
 
   .footnav{
     margin-top: -30px;
