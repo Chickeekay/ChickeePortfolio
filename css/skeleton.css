@@ -449,6 +449,10 @@ hr {
   max-width: 50px;
 }
 
+.logo:hover{
+  background-color: #FBC02D;
+}
+
 .hero{
   position:relative;
   height: 500px;
