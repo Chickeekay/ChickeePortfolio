@@ -466,6 +466,7 @@ hr {
   margin: 10% 12.5%;
   text-align: center;
 }
+
 .lastsection{
   position:relative;
   height: 300px;
@@ -590,6 +591,26 @@ text-align: center;
   margin-top: -10px;
 }
 
+.section_background{
+  position:relative;
+  height: 250px;
+  overflow: hidden;
+  /*background: url(../images/filo_background.png) no-repeat center;*/
+  background-size: contain;
+  margin-top: 2%;
+}
+
+.section-text h3{
+  padding: 20px 20px;
+  background-color: black;
+  background: rgba(0,0,0, .5);
+  margin: 80px 0px 0px;
+  text-align: center;
+}
+
+.subsection{
+  margin-top: 10%
+}
 
 
 
