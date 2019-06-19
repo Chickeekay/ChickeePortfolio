@@ -181,11 +181,11 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: white;
- text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
   color: #FBC02D;
- text-decoration: none;
+  text-decoration: none;
 }
 
 
@@ -475,16 +475,6 @@ hr {
   margin: 50px 0px 0px 0px;
 }
 
-/*.footer{
-  padding-top: 15px;
-  background-color: blue;
-  color: red;
-  position: relative;
-  bottom: 0;
-  clear: both;
-
-}*/
-
 .footer{
   padding-top: 25px;
   position: relative;
@@ -540,6 +530,18 @@ form-box{
   color: #90CAF9;
 }
 
+/*Project Specific Codes*/
+
+.filo-hero{
+  min-height: 500px;
+  min-width: 100%;
+  background: url(../images/filo_showcase.png) no-repeat center;
+  background-size: contain;
+}
+
+.centered-nav{
+  text-align: center;
+}
 /*Autofill Settings*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -548,6 +550,9 @@ input:-webkit-autofill:active  {
     -webkit-box-shadow: 0 0 0 30px #121212 inset !important;
     -webkit-text-fill-color: white !important;
 }
+
+
+
 /*  Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -610,7 +615,23 @@ there.
   .footnav{
     margin-top: -30px;
   }
+
+  /*Project Specific Codes*/
+  .filo-hero{
+    min-height: 250px;
+    background: url(../images/filo_showcase.png) no-repeat;
+    background-size: contain;
+  }
+
+  .centered-nav{
+    margin: 10%;
+    text-align: center;
+  }
+
+
 }
+
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
