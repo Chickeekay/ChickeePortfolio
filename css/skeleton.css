@@ -579,6 +579,16 @@ text-align: center;
   background: rgba(0,0,0, .5);
 }
 
+.three.columns{
+  text-align: center;
+  background-size: cover;
+}
+
+.column_background{
+  background-color: #313131;
+  height: 250px;
+  margin-top: -10px;
+}
 
 
 
