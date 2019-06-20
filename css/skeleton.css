@@ -789,7 +789,8 @@ there.
     margin-top: -30px;
   }
 
-  /*Project Specific Codes*/
+
+  /*Project Specific Codes ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
   .filo-hero{
     min-height: 250px;
     background: url(../images/filo_showcase.png) no-repeat;
@@ -801,10 +802,24 @@ there.
     text-align: center;
   }
 
- .li{
-   display: block;
-   float:left;
- }
+  .one-fifth.column{
+    display: grid;
+    width: 100%;
+    margin: 2.5%;
+    /*vertical-align: middle;*/
+  }
+
+  .one-fifth.column li{
+    background-color: #303030;
+    margin-top: 2%;
+    min-height: 40px;
+    /*vertical-align: middle;*/
+  }
+
+  .one-fifth.column a{
+    background-color: #FBC02D;
+    /*vertical-align: middle;*/
+  }
 
 }
 
