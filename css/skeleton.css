@@ -553,9 +553,14 @@ input:-webkit-autofill:active  {
   background-size: contain;
 }
 
-/*.centered-nav{
-  background-color: #121212;
-}*/
+.laptop {
+  display: block;
+}
+
+.container.mobile {
+  margin-top: 15%;
+  display: none;
+}
 
 .one-fifth.column{
 width:20%;
@@ -654,6 +659,9 @@ text-align: center;
   text-align: center;
 }
 
+.survey{
+  margin-top: -7.5%;
+}
 
 
 
@@ -766,6 +774,15 @@ there.
     background: rgba(0,0,0, .5);
   }
 
+  .hero h5{
+    background-color:#121212;
+    background: rgba(0,0,0, .5);
+  }
+  .filo_background h5, img{
+    background-color:#121212;
+    background: rgba(0,0,0, .5);
+  }
+
   p {
     font-size: 1.5rem;
     margin-top: 0;
@@ -830,15 +847,54 @@ there.
   }
 
   .one-fifth.column li{
-    background-color: #303030;
+    background-color: #121212;
+    border-radius: 4px;
+    border: 3px solid white;
     margin-top: 2%;
-    min-height: 40px;
-    /*vertical-align: middle;*/
+    height: 42px;
+    display: grid;
+    align-items: center;
   }
 
-  .one-fifth.column a{
-    background-color: #FBC02D;
-    /*vertical-align: middle;*/
+  .laptop {
+    display: none;
+  }
+
+  .container.mobile{
+    margin-top: 15%;
+    display: block;
+  }
+
+  .project_logo{
+    width: 50%;
+  }
+
+  .row h4, .showcase-img, .center h4, .about-img{
+    background-color: transparent;
+  }
+
+  .row, .background{
+    margin-top: 10%
+  }
+
+  .goals {
+    margin-top: 27%;
+  }
+
+  .survey{
+    margin-top: -10%;
+  }
+
+/*
+.three.columns.subcontainer.container h5, p{
+  margin-left: 1%;
+  align-items: center;
+}*/
+
+  .midsection1 .three {
+    display: inline;
+    width: 50%;
+    margin: 2.5% 2.5% 2.5% 1%;
   }
 
 }
