@@ -594,6 +594,10 @@ text-align: center;
   background-size: cover;
 }
 
+.mobile_row{
+  display: none;
+}
+
 .column_background{
   background-color: #313131;
   height: 250px;
@@ -754,6 +758,7 @@ text-align: center;
 
 
 
+
 /*  Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -815,7 +820,7 @@ there.
 
   .row {
     display:grid;
-    grid-template-columns: repeat (auto)
+    /*grid-template-columns: repeat (auto)*/
   }
 
   .project-img{
@@ -905,9 +910,20 @@ there.
     padding-top: 0px;
   }
 
-  .resptools{
-    width: 50%;
+  .mobile_resptools{
+    width: 46%;
+    margin: 2%;
+
   }
+
+  .laptop_row{
+    display: none;
+  }
+
+  .mobile_row{
+    display: block;
+  }
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
