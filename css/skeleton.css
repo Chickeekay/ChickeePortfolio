@@ -878,25 +878,36 @@ there.
   }
 
   .goals {
-    margin-top: 27%;
+    margin-top: 25%;
   }
 
   .survey{
     margin-top: -10%;
   }
 
-/*
-.three.columns.subcontainer.container h5, p{
-  margin-left: 1%;
-  align-items: center;
-}*/
+  /*
+  .three.columns.subcontainer.container h5, p{
+    margin-left: 1%;
+    align-items: center;
+  }*/
 
-  .midsection1 .three {
-    display: inline;
-    width: 50%;
+  /*.midsection1 .three {
+    display: inline-block;
+    width: 25%;
     margin: 2.5% 2.5% 2.5% 1%;
+  }*/
+
+  .header .row {
+      margin-top: 0px;
   }
 
+  .footer {
+    padding-top: 0px;
+  }
+
+  .resptools{
+    width: 50%;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
