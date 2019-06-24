@@ -683,7 +683,14 @@ text-align: center;
   width: 40%;
 }
 
+.four.columns.subsection.centered-persona{
+  width:31%;
+}
 
+.one_column_logos{
+  width: 60%;
+  margin: 0 20%;
+}
 
 
 
