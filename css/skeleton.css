@@ -477,7 +477,8 @@ hr {
   overflow: hidden;
   background: url(../images/background_triangle_black_yellow.png) no-repeat center;
   background-size: cover;
-  margin: 50px 0px 0px 0px;
+  margin-top: 10%;
+  /*margin: 50px 0px 0px 0px;*/
 }
 
 .footer{
@@ -946,6 +947,10 @@ there.
 
   .mobile_row{
     display: block;
+  }
+
+  .taller_bg{
+    height: 220px;
   }
 
 /*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
