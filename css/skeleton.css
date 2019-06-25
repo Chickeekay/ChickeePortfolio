@@ -954,6 +954,10 @@ there.
   }
 
 /*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+  .blocbox_hero{
+    background: url(../images/blocbox_showcase.png) no-repeat center;
+    background-size: contain;
+  }
 
   .four.columns.subsection.centered-persona{
     width:100%;
