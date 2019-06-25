@@ -792,18 +792,6 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-/*Mobile*/
-@media (max-width: 360px){
-.container{
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-}
-
 /*Smaller than phablet (also point when grid becomes active) */
 @media (max-width: 550px) {
 
@@ -972,6 +960,34 @@ there.
   }
 
 }
+
+/*Mobile*/
+@media (max-width: 411px){
+div.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0;
+  padding: 0 20px;
+  box-sizing: none;
+  /*float: center;*/
+  /*background-color: red;*/
+}
+
+.container.mobile {
+  margin-left: -5px;
+}
+
+.mobile_resptools.container{
+  /*margin-top: 25px;*/
+  padding: 20px 5px;
+}
+
+.subcontainer2 {
+  padding: 0px;
+}
+}
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
