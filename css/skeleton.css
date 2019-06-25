@@ -968,6 +968,11 @@ there.
     margin:0 3% 0 1%;
   }
 
+.six.columns.subsection.centered-persona h5{
+    background-color: black;
+    margin:0 3% 0 1%;
+  }
+  
 }
 
 /*Mobile*/
