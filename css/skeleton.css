@@ -871,9 +871,9 @@ there.
   }
   .project_hero{
     min-height: 250px;
-    background: url(../images/filo_3screens-v2.png) no-repeat;
-    background-size: contain;
-    background-position: center;
+    background: url(../images/filo_3screens-v4.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
   }
 
   .centered-nav{
