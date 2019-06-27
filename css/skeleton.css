@@ -532,9 +532,9 @@ form-box{
   color: #EF9A9A;
 }
 
-.blue{
-  color: #90CAF9;
-}
+.blue{color: #90CAF9;}
+
+.green{color:#5DBE23;}
 
 /*Autofill Settings*/
 input:-webkit-autofill,
@@ -705,6 +705,37 @@ text-align: center;
   display: none;
 }
 
+.text_image {
+  text-align: left;
+    padding: 10px 10px;
+}
+
+.light{
+  background-color: #303030;
+}
+
+.dark{
+  background-color: #303030;
+}
+
+.text_image h6{
+  font-weight: bold;
+}
+
+.text_image ul{
+  mar
+}
+
+.text_image li {
+  text-decoration: none;
+  list-style: square inside;
+  display: list-item;
+  margin: 0px;
+  font-size: 80%;
+  line-height: 1.5em;
+  padding-left: 2px;
+  /*margin-left: 50px;*/
+}
 
 
 
