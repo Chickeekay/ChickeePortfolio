@@ -784,6 +784,8 @@ text-align: center;
 
 
 
+
+
 /*  Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -972,6 +974,16 @@ there.
     background-color: black;
     margin:0 3% 0 1%;
   }
+
+.button.laptop_view {
+  display: none;
+}
+
+.button.mobile_view {
+  margin-top: 30px;
+  align-content: center;
+  display: block;
+}
 
 }
 
