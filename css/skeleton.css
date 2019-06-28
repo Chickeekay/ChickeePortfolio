@@ -580,7 +580,7 @@ text-align: center;
   position:relative;
   max-height: 450px;
   overflow: hidden;
-  background: url(../images/filo_background.png) no-repeat center;
+  background: url(../images/filo_bg4x-op.png) no-repeat center;
   background-size: cover;
   margin-top: 2%;
 }
