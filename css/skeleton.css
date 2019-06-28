@@ -732,11 +732,10 @@ text-align: center;
   font-size: 80%;
   line-height: 1.5em;
   padding-left: 2px;
-  /*margin-left: 50px;*/
+  padding-right: 0;
 }
 
 .nomargincol {
-  /*background-color: red;*/
  margin: 0;
 }
 
@@ -754,6 +753,13 @@ text-align: center;
   font-size: 80%;
 }
 
+.text_image li {
+  list-style: square;
+}
+
+.indent li{
+  margin-left: 15px;
+}
 
 
 
@@ -1089,10 +1095,12 @@ there.
   }
 
   .text_image li {
-    margin-left: 15px;
-    list-style: square;
+    margin-left: 30px;
   }
 
+  .indent li{
+    margin-left: 15px;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
