@@ -548,10 +548,11 @@ input:-webkit-autofill:active  {
 /*Project Specific Codes*/
 
 .project_hero{
-  min-height: 400px;
+  min-height: 260px;
   min-width: 100%;
   background: url(../images/filo_7screens.png) no-repeat center;
-  background-size: contain;
+  background-size: cover;
+  background-position: top;
 }
 
 .laptop {
@@ -676,7 +677,7 @@ text-align: center;
 /*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 
 .blocbox_hero{
- background: url(../images/blocbox_showcase-v2.png) no-repeat center;
+ background: url(../images/bb_showcase-v3.png) no-repeat center;
  background-size: contain;
 }
 
