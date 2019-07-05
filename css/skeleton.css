@@ -876,6 +876,11 @@ there.
     background-color:#121212;
     background: rgba(0,0,0, .5);
   }
+
+  .h5a {
+    font-size: 1.5rem;
+  }
+
   .project_background h5, img{
     background-color:#121212;
     background: rgba(0,0,0, .5);
