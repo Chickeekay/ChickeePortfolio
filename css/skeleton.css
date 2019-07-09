@@ -538,6 +538,14 @@ form-box{
 
 .teal {color: #009688}
 
+.bggrey {
+  background-color: #121212;
+  background: rgba(0,0,0,0);
+  color: #121212
+}
+
+.lightgrey {color: #303030}
+
 
 
 /*Autofill Settings*/
