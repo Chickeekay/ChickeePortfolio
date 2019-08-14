@@ -1,7 +1,7 @@
 # ChickeePortfolio
 ### My personal UX Design portfolio
 
-This is a culmination of what I've been studying in the past 2 years. When I started my UX program with Bloc, I have never heard of Sketch or Figma or Github. The closest I got to code is through a 2-hr free introductory HTML/CSS class in Galvanize Seattle which includes typing the phrase "Hello World" and adding a photo of me on the screen. So being able to code a whole page, let a alone a whole portfolio, blows mind!
+This is a culmination of what I've been studying in the past 2 years. When I started my UX program with Bloc, I have never heard of Sketch or Figma or Github. The closest I got to code is through a 2-hr free introductory HTML/CSS class in Galvanize Seattle which includes typing the phrase "Hello World" and adding a photo of me on the screen. So being able to code a whole page, let a alone a whole portfolio, blows my mind!
 
 As a nurse, this is totally out of the scope of my training. Btw, did I mention that back in high school, in my computer class, we were taught how to create an email account & to decifer the meaning of LOL, BRB & ASL?!
 
