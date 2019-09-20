@@ -690,6 +690,25 @@ text-align: center;
   margin-top: -7.5%;
 }
 
+.num li {
+  list-style: decimal;
+}
+
+.list li {
+  text-decoration: none;
+  list-style: square;
+  display: list-item;
+  margin: 2px 2px 2px 40px;
+  line-height: 1.5em;
+  padding-left: 2px;
+  padding-right: 0;
+}
+
+.num li{
+  list-style: decimal;
+}
+
+
 /*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 
 .blocbox_hero{
