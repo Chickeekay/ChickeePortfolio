@@ -628,23 +628,23 @@ text-align: center;
 }
 
 .research {
-    background: url(../images/books.jpg);
+    background: url(../images/casestudy/books.jpg);
 }
 
 .infoarchi {
-    background: url(../images/drawers.jpg);
+    background: url(../images/casestudy/drawers.jpg);
 }
 
 .branding {
-    background: url(../images/type.jpg);
+    background: url(../images/casestudy/type.jpg);
 }
 
 .visualdesign {
-    background: url(../images/me_design-v2.jpg);
+    background: url(../images/casestudy/me_design-v2.jpg);
 }
 
 .testing {
-    background: url(../images/3phones.jpg);
+    background: url(../images/casestudy/3phones.jpg);
 }
 
 .background{
@@ -712,7 +712,7 @@ text-align: center;
 /*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 
 .blocbox_hero{
- background: url(../images/bb_showcase-v3.png) no-repeat center;
+ background: url(../images/blocbox/bb_showcase-v3.png) no-repeat center;
  background-size: contain;
 }
 
@@ -1079,7 +1079,7 @@ there.
 
 /*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
   .blocbox_hero{
-    background: url(../images/blocbox_showcase-v2.png) no-repeat center;
+    background: url(../images/blocbox/blocbox_showcase-v2.png) no-repeat center;
     background-size: contain;
   }
 
