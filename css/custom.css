@@ -126,8 +126,13 @@ input[type="tel"],
 input[type="url"],
 input[type="password"],
 textarea {
-  min-height: 65px;
-}
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 150px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -677,6 +682,18 @@ there.
     text-align: left;
   }
 
+  .mobile_tasks ul{
+    text-align: left;
+    list-style: circle inside;
+  }
+
+  .mobile_tasks ul li{
+    padding: 0px;
+  }
+
+.figma {
+
+}
   .laptop_row{
     display: none;
   }
