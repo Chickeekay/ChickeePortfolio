@@ -532,6 +532,10 @@ ul.footnav{
   float: right;
 }
 
+/*Blog*/
+.blog{
+  margin-top: 10%;
+}
 /*  Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -745,6 +749,7 @@ there.
   }
 
 }
+
 
 /*Mobile*/
 @media (max-width: 414px){
