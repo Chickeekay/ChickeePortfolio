@@ -536,6 +536,26 @@ ul.footnav{
 .blog{
   margin-top: 10%;
 }
+
+.blog_featured{
+  border: solid white 5px;
+  padding: 15px;
+}
+
+.blog_bk_img{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.blog_container{
+  border: solid grey 3px;
+  padding: 15px;
+  margin-top: 5%;
+  padding: 0px;
+  box-sizing: border-box;
+  clear: right;
+}
 /*  Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -811,7 +831,6 @@ there.
     padding: 10px;
   }
 }
-
 
 /*.img{
   transition: 2s ease-in-out;
