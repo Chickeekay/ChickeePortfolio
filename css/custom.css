@@ -259,6 +259,10 @@ form-box{
 
 .lightgrey {color: #303030}
 
+.view-all{
+  border-color: #FBC02D;
+  color: #FBC02D;
+}
 /*Autofill Settings––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
