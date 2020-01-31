@@ -846,6 +846,10 @@ there.
   ul.footnav li {
     padding: 10px;
   }
+
+  .navigation{
+    margin-right: -7.5%;
+  }
 }
 
 /*.img{
