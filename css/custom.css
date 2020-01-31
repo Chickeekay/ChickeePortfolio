@@ -567,6 +567,11 @@ ul.footnav{
   height: 250px;
   /*height: 100%;*/
 }
+
+.date{
+  font-style: italic;
+  color: grey;
+}
 /*  Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
