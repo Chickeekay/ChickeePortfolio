@@ -282,11 +282,10 @@ figcaption {
 /*Project Specific Codes––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 
 .project_hero{
-  min-height: 260px;
-  min-width: 100%;
-  background: url(../images/filo/filo_7screens.png) no-repeat center;
+  background-position: center top;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  min-height: 250px;
 }
 
 .laptop {
@@ -431,12 +430,18 @@ text-align: center;
   margin: 10px 0px 0px 15px;
 }
 
+/*Filo Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+.filo_hero{
+  background-image:url(../images/filo/filo_7screens.png);
+}
 
-/*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+/*Blocbox Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 
 .blocbox_hero{
- background: url(../images/blocbox/bb_showcase-v3.png) no-repeat center;
- background-size: contain;
+  background-image:url(../images/blocbox/bb_showcase-v3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .bb_logo {
@@ -536,15 +541,14 @@ ul.footnav{
   float: right;
 }
 
-/*HomeHealth*/
+/*Home Health Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .homehealth_bg {
   background: radial-gradient(circle, black, transparent), url(../images/homehealth/homehealth_bg.png) no-repeat center;
   background-size: cover;
 }
 
 .hh_hero{
-  background: url(../images/homehealth/hh_hero.png) no-repeat center;
-  background-size: contain;
+  background-image: url(../images/homehealth/hh_hero.png);
 }
 
 .hh_logo{
@@ -552,7 +556,7 @@ ul.footnav{
 }
 
 
-/*Blog*/
+/*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
   margin-top: 10%;
 }
@@ -669,15 +673,16 @@ there.
 
 
   /*Project Specific Codes ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
-  /*Filo––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+  /*Filo Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
   .top .row{
     margin-top: 0;
   }
   .project_hero{
     min-height: 250px;
-    background: url(../images/filo/filo_3screens-v4.png) no-repeat;
+    background: url(../images/filo/filo_3screens-v4.png);
     background-size: cover;
     background-position: center top;
+    background-repeat: no-repeat;
   }
 
   .centered-nav{
@@ -777,7 +782,7 @@ there.
     height: 220px;
   }
 
-/*Blocbox––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+/*Blocbox Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––*/
   .blocbox_hero{
     background: url(../images/blocbox/blocbox_showcase-v2.png) no-repeat center;
     background-size: contain;
@@ -807,7 +812,7 @@ there.
     display: block;
   }
 
-/*Home Health*/
+/*Home Health Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––*/
   .hh_logo{
     width: 85%;
   }
