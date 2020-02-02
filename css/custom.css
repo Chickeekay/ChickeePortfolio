@@ -542,6 +542,15 @@ ul.footnav{
   background-size: cover;
 }
 
+.hh_hero{
+  background: url(../images/homehealth/hh_hero.png) no-repeat center;
+  background-size: contain;
+}
+
+.hh_logo{
+  width: 60%;
+}
+
 
 /*Blog*/
 .blog{
@@ -579,8 +588,15 @@ ul.footnav{
   font-style: italic;
   color: grey;
 }
+
+
+/* Animation –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.ellipsis{
+  animation-iteration-count: infinite;
+}
+
 /*  Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– ––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /*
 Note: The best way to structure the use of  queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
@@ -791,6 +807,16 @@ there.
     display: block;
   }
 
+/*Home Health*/
+  .hh_logo{
+    width: 85%;
+  }
+  .hh_hero{
+    background: url(../images/homehealth/hh_hero_mobile.png) no-repeat;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center top;
+  }
 }
 
 
@@ -858,6 +884,8 @@ there.
     margin-right: -7.5%;
   }
 }
+
+
 
 /*.img{
   transition: 2s ease-in-out;
