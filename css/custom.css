@@ -550,11 +550,30 @@ ul.footnav{
   width: 60%;
 }
 
-.video        {width:80%;height:100%;margin:0 auto;background:#CCC}
-.iframe1        {position:relative;}
-.iframe1 .ratio {display:block;width:100%;height:auto;}
-.iframe1 iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:25%;
+    position:relative;
+    height:0;
+}
 
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*.laptop_view{
+  padding-bottom:25%;
+  display: none;
+}
+
+.mobile_view{
+    padding-bottom:52.25%;
+    display: none;
+  }*/
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
   margin-top: 10%;
@@ -830,6 +849,10 @@ there.
     background-size: cover;
     background-position: center top;
   }
+
+  .video-responsive{
+      padding-bottom:52.25%;
+  }
 }
 
 
@@ -896,6 +919,8 @@ there.
   .top_nav{
     margin-right: -7.5%;
   }
+
+
 }
 
 
