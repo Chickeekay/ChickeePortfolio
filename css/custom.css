@@ -545,6 +545,10 @@ ul.footnav{
   width: 60%;
 }
 
+.video        {width:80%;height:100%;margin:0 auto;background:#CCC}
+.iframe1        {position:relative;}
+.iframe1 .ratio {display:block;width:100%;height:auto;}
+.iframe1 iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
 
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
@@ -605,10 +609,18 @@ there.
     font-weight: 600;
   }
 
-  .hero h5{
-    /*background-color:#121212;
-    background: rgba(0,0,0, .5);*/
+  .hero{
+    max-height: 400px;
   }
+
+  .wrapper{
+    height: 225px;
+  }
+
+  /*.hero h5{
+    background-color:#121212;
+    background: rgba(0,0,0, .5);
+  }*/
 
   .h5a {
     font-size: 1.5rem;
