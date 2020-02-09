@@ -421,6 +421,11 @@ text-align: center;
   margin: 10px 0px 0px 15px;
 }
 
+.wrapper-text{
+  margin: 7.5% auto;
+  text-align: center;
+}
+
 /*Filo Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .filo_hero{
   background-image:url(../images/filo/filo_7screens.png);
