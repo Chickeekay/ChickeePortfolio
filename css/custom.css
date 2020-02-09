@@ -626,6 +626,12 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+@media (max-width:768px){
+  .video-responsive{
+      padding-bottom:40%;
+  }
+}
+
 /*Smaller than phablet (also point when grid becomes active) */
 @media (max-width: 550px) {
 
@@ -849,10 +855,6 @@ there.
     background-size: cover;
     background-position: center top;
   }
-
-  .video-responsive{
-      padding-bottom:52.25%;
-  }
 }
 
 
@@ -920,7 +922,9 @@ there.
     margin-right: -7.5%;
   }
 
-
+  div.video-responsive{
+      padding-bottom:52%;
+  }
 }
 
 
