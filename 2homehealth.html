@@ -272,7 +272,7 @@
         <!-- 3rd column -->
         <div class="six columns subsection  centered-persona box" style="margin:1%">
           <img src="images/homehealth/manager.jpg" class="about-img"><br><br>
-          <h5 style="background-color: #121212">Nena</h5>
+          <h5 style="background-color: #121212">Deanna</h5>
           <p>48, F <br>Nurse Manager</p>
           <div class="subsection goals text_left" style="margin:5%">
           <P style="background:transparent">
@@ -317,7 +317,7 @@
         <h4>Competitive Analysis</h4>
         <p>Because all existing EVV’s need a member’s login, we weren't able to get in any of them and couldn’t play around to investigate further. We had to completely rely on the previews in the app store and random online images. These are some of the wireframes I found from few companies.<br><br></p>
 
-          Good Features:
+          Strenghts:
           <ol class="num list">
             <li>Shows list of all upcoming visits</li>
             <li>Has patient's vital info</li>
@@ -326,10 +326,10 @@
 
           <br>
 
-          Bad Features:
+          Weaknesses:
           <ol class="num list">
             <li>Burdensome onboarding</li>
-            <li>Not so modern interface</li>
+            <li>Outdated interface</li>
             <li>Inconsistent menu</li>
           </ol>
         </p>
@@ -364,38 +364,68 @@
       <!-- Text 1st Column  -->
       <div class="six columns subsection">
         <h4>User Stories</h4>
-        <p>To establish necessary features of the app, I created a list of user stories based on potential user tasks. These user stories were refined and prioritized to define a minimum viable product.
+        <p>Due to time constraints, we decided to design <i>only</i> for new visit experience. Meaning a nurse who had previously visited other patients before but is visiting a new patient. Here are our assumptions for the design.<br><br>
+
+        User #1: Nurse / Care Provider
+          <ol class="num list">
+            <li>Already registered in the system</li>
+            <li>Visiting a new patient for the first time</li>
+          </ol><br>
+
+        User #2: Manager
+          <ol class="num list">
+            <li>Already registered in the system</li>
+            <li>Logging in to check the visit details and approve the completion of the visit.</li>
+          </ol>
+
+          <br>
+
+      User #3: Patient (Part-time user)
+        <ol class="num list">
+          <li>Owns a patient ID with an NFC capability</li>
+          <li>Physically capable of providing signature</li>
+        </ol>
         </p>
 
         <!-- Button Laptop-->
-        <a href="assets/filo/user_stories.pdf" target="_blank" class="button laptop_view">See Full User Stories</a>
+        <!-- <a href="assets/filo/user_stories.pdf" target="_blank" class="button laptop_view">See Full User Stories</a> -->
       </div>
 
-      <!-- Image 2nd Column  -->
+      <!-- Nurse -->
       <div class="six columns subsection text_image light">
-        <h6>As a <span class="green">new user</span> I want to ...</h6>
+        <h6>As a <span class="hh_orange">care provider</span> I want to ...</h6>
         <ul>
-        <li>Know more about Filo</li>
-        <li>Create an account with email or Facebook</li>
-        <li>Feel secure about using the service</li>
-        <li>Set my currencies</li>
-        <li>Add or link my financial accounts</li>
-        <li>Create a budget</li>
+        <li>Easily and securely sign in</li>
+        <li>See my upcoming visits</li>
+        <li>Conveniently pull up my patient's location</li>
+        <li>See my patient's records in app</li>
+        <li>Document on the fly.</li>
+        <li>Submit my report at the end of my shift</li>
         </ul>
 
-      <!-- Returning User -->
-      <h6>As a <span class="green">returning user</span> I want to ...</h6>
+      <!-- Manager -->
+      <h6>As a <span class="hh_orange">manager</span> I want to ...</h6>
       <ul>
-      <li>Sign in via passcode</li>
-      <li>Monitor my financial accounts</li>
-      <li>Monitor my income and expense</li>
-      <li>See the status of my budget</li>
-      <li>Receive alerts on my due dates</li>
+      <li>Easily and securely sign in</li>
+      <li>See all my urgent and important tasks in one glance</li>
+      <li>Assign patients to care providers</li>
+      <li>Review and approved completed visits</li>
+      <li>Be able to work away from my desk</li>
+      </ul>
+
+      <!-- Manager -->
+      <h6>As a <span class="hh_orange">patient</span> I want to ...</h6>
+      <ul>
+      <li>Be assured my care provider knows all the important info about me</li>
+      <li>Make sure I'm getting the right treatment</li>
+      <li>Keep my privacy protected</li>
+      <li>Be billed only for completed visits and necesssary treatments</li>
+      <li>Know that my care providers properly coordinate with each other</li>
       </ul>
       </div>
 
       <!-- Button Mobile-->
-      <a href="assets/filo/user_stories.pdf" target="_blank" class="button mobile_view">See Full User Stories</a>
+      <!-- <a href="assets/filo/user_stories.pdf" target="_blank" class="button mobile_view">See Full User Stories</a> -->
 
     </div>
   </div>
@@ -477,10 +507,6 @@
             <li>Know How to Budget</li>
           </ul>
         </p>
-
-        <!-- Button: Maze link doesn't seem to open outside my own login-->
-        <!-- <a href="https://maze.design/projects/749025/mazes/749115" target="_blank" class="button">See Details</a><br><br>
-      </div> -->
 
       </div>
     </div>

@@ -201,7 +201,7 @@ li:hover{
 }
 
 i{
-  font-size:25px;
+  font-size: inherit;
   color: white;
 }
 i:hover {
@@ -260,6 +260,14 @@ form-box{
 .view-all{
   border-color: #FBC02D;
   color: #FBC02D;
+}
+
+.hh_red{
+  color:#E53935;
+}
+
+.hh_orange{
+  color:#FFB300;
 }
 /*Autofill Settings––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 input:-webkit-autofill,
@@ -697,7 +705,7 @@ there.
   }
 
   .about-img{
-    height:200px;
+    height:180px;
   }
 
   .row {
