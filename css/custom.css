@@ -559,6 +559,17 @@ ul.footnav{
   width: 60%;
 }
 
+a.winner{
+  color:#FBC02D;
+}
+
+a.winner:hover {
+  color: #000;
+  text-decoration: underline;
+  background-color: #FBC02D;
+  font-weight: bold;
+}
+
 .video-responsive{
     overflow:hidden;
     padding-bottom:25%;
