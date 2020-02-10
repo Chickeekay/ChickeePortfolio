@@ -571,8 +571,12 @@ div .text_left{
 }
 
 .box{
-  border: 5px solid white;
+  border: 3px solid white;
   padding-top: 5%;
+}
+
+h5 .name_bg{
+  background-color: #121212;
 }
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
