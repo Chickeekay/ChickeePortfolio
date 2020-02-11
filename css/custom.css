@@ -279,7 +279,7 @@ input:-webkit-autofill:active  {
 }
 
 /*Images––––––––––––––––––––––––––––––––––––––––––––––––––-*/
-figcaption {
+figcaption, .disclaimer {
   font-size: 0.7em;
   font-weight: 300;
   color: #BDBDBD;
@@ -596,6 +596,10 @@ div .text_left{
 
 h5 .name_bg{
   background-color: #121212;
+}
+
+.nodisplay_laptop{
+  display: none;
 }
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
@@ -947,6 +951,10 @@ there.
 
   div.video-responsive{
       padding-bottom:52%;
+  }
+
+  .nodisplay_mobile{
+    display: none;
   }
 }
 
