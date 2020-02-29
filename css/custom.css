@@ -601,6 +601,21 @@ h5 .name_bg{
 .nodisplay_laptop{
   display: none;
 }
+
+/*WheelTrack Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+.wheeltrack_bg {
+  background-image: radial-gradient(circle, black, transparent), url(../images/wheeltrack/wt_bg.png);
+  min-height: 500px;
+}
+
+.wheeltrack_hero{
+  background-image: url(../images/wheeltrack/wt_hero.png);
+}
+
+.wheeltrack_wrapper{
+  background-image: radial-gradient(circle, black, transparent), url(../images/wheeltrack/wt_bg.png);
+}
+
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
   margin-top: 10%;
@@ -882,6 +897,21 @@ there.
     background-size: cover;
     background-position: center top;
   }
+
+  /*WheelTrack Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+    .wt_logo{
+      width: 85%;
+    }
+    .wheeltrack_hero{
+      background: url(../images/wheeltrack/wt_hero_mobile.png) no-repeat;
+      min-height: 250px;
+      background-size: cover;
+      background-position: center top;
+    }
+    .wheeltrack_bg {
+      background-image: radial-gradient(circle, black, transparent), url(../images/wheeltrack/wt_bg.png);
+      min-height: 425px;
+    }
 }
 
 
