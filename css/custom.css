@@ -616,6 +616,20 @@ h5 .name_bg{
   background-image: radial-gradient(circle, black, transparent), url(../images/wheeltrack/wt_bg.png);
 }
 
+/*LiliusMed Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+.liliusmed_bg {
+  background-image: radial-gradient(circle, black, transparent), url(../images/liliusmed/lm_bg.png);
+  min-height: 500px;
+}
+
+.liliusmed_hero{
+  background-image: url(../images/liliusmed/lm_hero2.png);
+}
+
+.liliusmed_wrapper{
+  background-image: radial-gradient(circle, black, transparent), url(../images/liliusmed/lm_bg.png);
+}
+
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
   margin-top: 10%;
@@ -910,6 +924,21 @@ there.
     }
     .wheeltrack_bg {
       background-image: radial-gradient(circle, black, transparent), url(../images/wheeltrack/wt_bg.png);
+      min-height: 425px;
+    }
+
+    /*LiliusMed Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+
+    .lm_logo{
+      width: 85%;
+    }
+
+    .liliusmed_hero{
+      background-image: url(../images/liliusmed/lm_hero_desktop.png);
+    }
+
+    .liliusmed_bg {
+      background-image: radial-gradient(circle, black, transparent), url(../images/liliusmed/lm_bg.png);
       min-height: 425px;
     }
 }
