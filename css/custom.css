@@ -630,6 +630,17 @@ h5 .name_bg{
   background-image: radial-gradient(circle, black, transparent), url(../images/liliusmed/lm_bg.png);
 }
 
+/*LiliusMed Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+.memorii {
+background-image: url(../images/memorii/ipad_scan_view.png);
+min-height: 1000px;
+max-width: 3000px;
+background-repeat:  no-repeat;
+background-position: center;
+background-size: contain;
+
+}
+
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
   margin-top: 10%;
