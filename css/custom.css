@@ -169,6 +169,18 @@ li:hover{
   background-color: #FBC02D;
 }
 
+.devposticon{
+  background-image: url(../images/devpost_icon.png);
+  max-height: 15px;
+  margin-bottom: -1%;
+  position: relative;
+}
+
+.devposticon:hover{
+  /*background-image: url(../images/devpost_icon_hover.png)no-repeat;*/
+  background-color: #FBC02D;
+}
+
 .hero{
   background-image:radial-gradient(circle, black, transparent), url(../images/background_triangle_black_yellow-v2.png);
   background-position: center;
@@ -1025,6 +1037,10 @@ there.
 
   .nodisplay_mobile{
     display: none;
+  }
+
+  .devposticon{
+    margin-bottom: -.5%;
   }
 }
 
