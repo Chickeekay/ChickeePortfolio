@@ -664,6 +664,10 @@ background-size: contain;
   padding: 15px;
 }
 
+.blog_featured:hover {
+  border: solid #FBC02D 5px;
+}
+
 .blog_bk_img{
   position: absolute;
   top: 8px;
