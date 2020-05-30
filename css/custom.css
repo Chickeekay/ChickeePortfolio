@@ -666,6 +666,8 @@ background-size: contain;
 
 .blog_featured:hover {
   border: solid #FBC02D 5px;
+  display: block;
+    transition: all 0.3s ease 0s;
 }
 
 .blog_bk_img{
