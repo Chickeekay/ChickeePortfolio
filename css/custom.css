@@ -5,6 +5,7 @@ html {
 body {
   color: white;
   background-color: #121212;
+  overflow-x: hidden;
 }
 
 /* Larger than phablet */
@@ -161,8 +162,9 @@ li:hover{
 /* Custom CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .logo {
-  position: relative;
-  max-width: 50px;
+  /*position: relative;*/
+  max-width: 150px;
+  padding-top: 10px;
 }
 
 .logo:hover{
@@ -297,6 +299,53 @@ figcaption, .disclaimer {
   color: #BDBDBD;
 }
 
+/*Sliding Nav––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #252525;
+  /*opacity: .9;*/
+  /*overflow-x: hidden;*/
+  padding-top: 60px;
+  transition: 0.7s;
+}
+
+.nav a {
+  display: block;
+  padding: 20px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav .close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 0px;
+  font-size: 24px;
+  transition: 0.7s;
+  /*display: none;*/
+}
+
+.slide.fa-bars{
+  display: none;
+}
+
+.slide a {
+  color: #111;
+  font-size: 36px;
+}
+
+#content {
+  padding: 20px;
+  transition: margin-left 0.7s;
+  overflow: hidden;
+}
 /*Project Specific Codes––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 
 .project_hero{

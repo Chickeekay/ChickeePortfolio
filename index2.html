@@ -5,9 +5,10 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Chickee UX Design Portfolio</title>
-  <meta name="description" content="Seattle-based Southeast Asian UX designer bringing her background in finance, healthcare, and business to give people the best user experience.">
-  <meta name="author" content="Chickee Fuerman, UX Designer">
+  <meta name="title" property="og:title" content="Seattle-based UX Designer and UX Researcher | Chickee.Design">
+  <meta name="description" property="og:description" content="Seattle-based UX designer/researcher bringing her background in healthcare, finance, and business to give people the best user experience.">
+  <meta name="author" property="og:author" content="Chickee Fuerman, UX Designer">
+  <meta name="image" property="og:image" content="images/chickee_link_preview.png">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -22,6 +23,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,7 +34,7 @@
   <script>
     function openSlideMenu(){
       document.getElementById('menu').style.width = '250px';
-      document.getElementById('content').style.marginRight = '-250px';
+      document.getElementById('content').style.marginRight = '0px';
     }
 
     function closeSlideMenu(){
@@ -44,13 +46,13 @@
 </head>
 <body>
 
-<!-- Primary Page Layout
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container header">
   <div class="row">
 
     <div class="twelve column" style="margin-top: 12.5px">
-      <img src="images/chickee_logo_name_w2.webp" class="logo">
+      <img src="images/chickee_logo_name_w2.webp" class="logo bggrey">
 
       <div id="content" style="float: right; margin-top: 0px; padding-top: 0">
         <span class="slide">
@@ -77,8 +79,8 @@
   <div class="container">
     <div class="twelve columns, centered-text">
       <h1>Hi, I'm&nbsp;<span class="gold">Chickee!</span></h1>
-      <h5> A Seattle-based Southeast Asian <b class="yellow">UX&nbsp;designer</b> bringing her background in <b class="yellow">finance, healthcare,</b> and <b class="yellow">business </b> to give people the best user experience. </h5>
-      <h5 class="h5a"><i class="fas fa-map-marker-alt"></span>&nbsp;</i> Seattle, USA<br>- Willing to relocate -</h5>
+      <h5> An <b class="yellow">award-winning UX&nbsp;designer</b> bringing her background in <b class="yellow">healthcare, finance,</b> and <b class="yellow">education </b> to create meaningful user experiences and product designs. </h5>
+      <h5 class="h5a"><i class="fas fa-map-marker-alt"></span>&nbsp;</i> Seattle, USA<br>- Temporarily in Ohio due to social distancing -</h5>
       <a href="contact.html" class="button">Contact Me</a><br><br>
 
     </div>
@@ -94,39 +96,71 @@
         <h3>Featured Work</h3>
       </div>
 
-      <div class="container">
-        <div class="row">
+        <!-- <section class="row">
           <div class="five columns" style="margin-top: 5%">
             <h4><a href="filo.html">Filo</a> </h4>
-            <p>Filo is a comprehensive, user-friendly, dual-currency financial management app that caters to the unique needs of Overseas Filipinos.</p>
+            <p>Filo is a comprehensive, user-friendly, dual-currency financial management app that caters to the unique needs of migrant Filipinos.</p>
             <a href="filo.html" class="button laptop_view">View Case Study</a>
           </div>
 
           <div class="seven columns" style="margin-top: 5%"><img src="images/filo/filo_2screens.png" class="showcase-img">
           <a href="filo.html" class="button mobile_view">View Case Study</a>
           </div>
-        </div>
+        </section> -->
 
-        <div class="row">
-          <div class="seven columns project-img" style="margin-top: 12.5%">
-            <img src="images/blocbox/bb_ipad-v2.png" class="showcase-img">
-            <a href="blocbox.html" class="button mobile_view">View Case Study</a>
+        <section class="row">
+          <div class="five columns">
+            <h4><a href="liliusmed.html">LiliusMed</a> </h4>
+            <p>LiliusMed is an intuitive decision making platform where government agencies, hospitals, and suppliers can quickly and accurately gauge current supply, anticipate future case burden, and forecast upcoming needs.<br><br>
+            <a href="https://covidglobalhackathon.com/" target="_blank" class="winner">Winner: Build for Covid 19 Hackathon<br>Highlighted Project</a><br><br>
+            <p><b>Case Study in Progress&nbsp;<span class="ellipsis animated flash delay-2s duration-15s">. . .</span></b></p>
+            <a href="https://youtu.be/gCvU0w3lSaE" target="blank" class="button laptop_view">View Video Presentation</a>
           </div>
 
+          <div class="seven columns" style="margin-top: 0%; margin-bottom:12.5%"><img src="images/liliusmed/lm_hero_desktop2.png" class="showcase-img">
+          <a href="https://youtu.be/gCvU0w3lSaE" target="blank" class="button mobile_view">View Video Presentation</a>
+          </div>
+        </section>
+
+        <section class="row">
+          <div class="seven columns project-img">
+            <img src="images/homehealth/hh_projects.png" class="showcase-img">
+            <a href="homehealth.html" class="button mobile_view">View Prototype and Case Study</a>
+          </div>
+
+          <div class="five columns">
+            <h4><a href="homehealth.html">Home Health</a> </h4>
+            <p>Home Health is a B2B electronic visit verification (EVV) and mobile documentation app for in-home healthcare visits.<br><br>
+            <a href="https://www.samsung.com/us/business/about-us/business-events/enterprise-appdev-launchpad/#5d519d99-9aaa-46d0-81e9-9a638d5dad4b" target="_blank" class="winner">Winner: Samsung B2B Hackathon 2019<br>Most Original and Inventive UX/UI</a><br><br>
+            <a href="homehealth.html" class="button laptop_view">View Prototype and Case Study</a>
+          </div>
+        </section>
+
+        <section class="row">
           <div class="five columns" style="margin-top: 12.5%">
-            <h4><a href="blocbox.html">Blocbox</a></h4>
-            <p>Blocbox is a simple, easy-to-use cloud storage platform for saving and sharing notes, images, and links.</p>
-            <a href="blocbox.html" class="button laptop_view">View Case Study</a>
+            <h4>Memorii</h4>
+            <!-- <h4><a href="memorii.html">Memorii</a> </h4> -->
+            <p>Memorii is a label printer app designed to help seniors with memory problems remember and maintain their independence.<br><br>
+            <a href="https://brothersolutions.com/news/post/brother-international-corporation-hackathon-generates-imaginative-impactful-software-applications-" target="_blank" class="winner">Winner: Brother Hackathon 2020<br>Vertical Award- Healthcare</a><br><br>
+            <p><b>Case Study in Progress&nbsp;<span class="ellipsis animated flash delay-2s duration-15s">. . .</span></b></p>
+            <a href="https://youtu.be/EjPxi_oN7Uw" target="blank" class="button laptop_view">View Video Presentation</a>
           </div>
-        </div>
 
-      </div>
-    </div>
-  </div>
+          <div class="seven columns" style="margin-top: 12.5%"><img src="images/memorii/mm_projects.png" class="showcase-img">
+          <a href="https://youtu.be/EjPxi_oN7Uw" target="blank" class="button mobile_view">View Video Presentation</a>
+          </div>
+        </section>
 
-<div class="lastsection taller_bg">
-    <div class="container">
       <div class="twelve columns, centered-text">
+        <a href="projects.html" class="button view-all" style="padding:0px 60px 36px 60px">View All Projects</a>
+      </div>
+
+  </div>
+</div>
+
+  <div class="hero wrapper">
+    <div class="container">
+      <div class="wrapper-text">
         <h3>Let's chat!</h3>
         <a href="contact.html" class="button">Contact Me</a>
       </div>
@@ -149,6 +183,11 @@
           <li><a href="https://github.com/Chickeekay/"target="_blank"><i class="fab fa-github"></i></a></li>
 
           <li><a href="https://devpost.com/chickeedesign" target="_blank"><img src="images/devpost_icon.png" class="devposticon"></i></a></li>
+
+          <!-- <li><a href="https://github.com/Chickeekay/"target="_blank"><i class="fab fa-youtube-play"></i></a></li> -->
+
+          <!-- <li><a href="https://devpost.com/chickeedesign" target="_blank"><i class="devposticon"></i></a></li> -->
+
 
         </ul>
       </div>
