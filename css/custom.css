@@ -6,6 +6,7 @@ body {
   color: white;
   background-color: #121212;
   overflow-x: hidden;
+  /*transition:filter 300ms ease-in-out;*/
 }
 
 /* Larger than phablet */
@@ -299,52 +300,31 @@ figcaption, .disclaimer {
   color: #BDBDBD;
 }
 
-/*Sliding Nav––––––––––––––––––––––––––––––––––––––––––––––––––-*/
-
-.nav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #252525;
-  /*opacity: .9;*/
-  /*overflow-x: hidden;*/
-  padding-top: 60px;
-  transition: 0.7s;
+/*Light/Dark Mode––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+body.dark-mode{
+  /*color: #121212;*/
+  background: white;
+  filter:invert(1);
+  /*filter: hue-rotate(90deg);*/
+  /*mix-blend-mode: difference;*/
 }
 
-.nav a {
-  display: block;
-  padding: 20px 30px;
-  font-size: 20px;
-  text-decoration: none;
+div.dark-mode{
+    background-image: radial-gradient(circle, white, transparent), url(../images/background_triangle_black_yellow-v2.webp);
 }
 
-.nav .close {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-right: 0px;
-  font-size: 24px;
-  transition: 0.7s;
+a.dark-mode {
+  /*filter:invert(1);*/
+  /*filter: hue-rotate(90deg);*/
+  color: #121212;
 }
 
-.slide.fa-bars{
+/*Navigation––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+
+.navdrawer {
   display: none;
 }
 
-.slide a {
-  color: #111;
-  font-size: 36px;
-}
-
-#content {
-  padding: 20px;
-  transition: margin-left 0.7s;
-  overflow: hidden;
-}
 /*Project Specific Codes––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 
 .project_hero{
@@ -760,9 +740,70 @@ there.
 */
 
 @media (max-width:768px){
+
   .video-responsive{
       padding-bottom:40%;
   }
+
+  .nav-out {
+    display: none;
+  }
+
+  .navdrawer{
+    display: grid;
+  }
+
+/*Sliding Nav––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+
+  .nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #252525;
+    /*opacity: .9;*/
+    /*overflow-x: hidden;*/
+    padding-top: 60px;
+    transition: 0.7s;
+  }
+
+  .nav a {
+    display: block;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .nav .close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 0px;
+    font-size: 24px;
+    transition: 0.7s;
+  }
+
+  .slide.fa-bars{
+    display: none;
+  }
+
+  .slide a {
+    color: #111;
+    font-size: 36px;
+  }
+
+  #content {
+    padding: 20px;
+    transition: margin-left 0.7s;
+    overflow: hidden;
+  }
+
+  .nav-out {
+    display: none;
+  }
+
 }
 
 /*Smaller than phablet (also point when grid becomes active) */
@@ -841,6 +882,9 @@ there.
     margin-top: -30px;
   }
 
+  .nav-out {
+    display: none;
+  }
 
   /*Project Specific Codes ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
   /*Filo Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
@@ -1097,8 +1141,6 @@ there.
     margin-bottom: -.5%;
   }
 }
-
-
 
 /*.img{
   transition: 2s ease-in-out;
