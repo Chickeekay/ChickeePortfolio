@@ -670,7 +670,7 @@ h5 .name_bg{
   background-image: radial-gradient(circle, black, transparent), url(../images/liliusmed/lm_bg.png);
 }
 
-/*LiliusMed Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+/*Memorii Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .memorii {
 background-image: url(../images/memorii/ipad_scan_view.png);
 min-height: 1000px;
@@ -679,6 +679,20 @@ background-repeat:  no-repeat;
 background-position: center;
 background-size: contain;
 
+}
+
+/*Ethical Shopping Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+.ethicalshopping_bg {
+  background-image: radial-gradient(circle, black, transparent), url(../images/ethicalshopping/hero_bg.png);
+  min-height: 500px;
+}
+
+.ethicalshopping_hero{
+  background-image: url(../images/ethicalshopping/banner.png);
+}
+
+.ethicalshopping_wrapper{
+  background-image: radial-gradient(circle, black, transparent), url(../images/ethicalshopping/hero_bg.png);
 }
 
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
