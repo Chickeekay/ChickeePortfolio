@@ -1080,6 +1080,21 @@ there.
       background-image: radial-gradient(circle, black, transparent), url(../images/liliusmed/lm_bg.png);
       min-height: 425px;
     }
+
+    /*Ethical Shopping Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+
+    .lm_logo{
+      width: 85%;
+    }
+
+    .ethicalshopping_bg {
+      background-image: radial-gradient(circle, black, transparent), url(../images/ethicalshopping/hero_bg.png);
+      min-height: 0px;
+    }
+   
+    .ethicalshopping_hero{
+      background-image: url(../images/ethicalshopping/banner_mobile.png);
+    }
 }
 
 
