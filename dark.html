@@ -138,7 +138,15 @@
     <div class="row">
 
       <div class="six columns copyright">
-        <i class="far fa-copyright" style="font-size:15px"></i> Designed & coded by Chickee Fuerman 2020
+        &copy; Designed & coded by Chickee Fuerman <span id="year"></span>
+      
+        <script>
+          // JavaScript code to get the current year
+          var yearElement = document.getElementById("year");
+          var currentYear = new Date().getFullYear();
+          yearElement.textContent = currentYear;
+        </script>
+
       </div>
 
       <div class="six columns social">

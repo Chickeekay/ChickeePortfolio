@@ -150,7 +150,7 @@
         <div class="subcontainer tasks">
           <div class="container" style="margin:5% 10%">
           <h5 style="background:transparent"> Tasks</h5>
-          <p>User Research <br>UX/ UI Design<br>Info Architecture<br>Branding<br> User Testing<br>Front End Development (HTML/CSS/JS)<br> <br> <br> <br> <br></p>
+          <p>User Research<br>UX/ UI Design<br>Info Architecture<br>Branding<br>User Testing<br>Front End Development (HTML/CSS/JS)<br> <br> <br> <br> <br></p>
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@
       <div class="three columns subsection laptop_row" style="background-color:#303030">
         <div class="subcontainer tasks">
           <div class="container" style="margin:5% 10%">
-          <h5 style="background:transparent">Tools</h5><p>Google Forms<br>Illustrator <br> Photoshop<br>Draw.io<br>Balsamiq<br>Sketch<br>Invision<br>UsabilityHub<br>Lookback<br>Atom<br>Github<br></p>
+          <h5 style="background:transparent">Tools</h5><p>Google Forms<br>Illustrator<br>Photoshop<br>Draw.io<br>Balsamiq<br>Sketch<br>Invision<br>UsabilityHub<br>Lookback<br>Atom<br>Github<br></p>
         </div>
       </div>
       </div>
@@ -764,7 +764,15 @@
       <div class="row">
 
         <div class="six columns copyright">
-          <i class="far fa-copyright" style="font-size:15px"></i> Designed & coded by Chickee Fuerman 2020
+          &copy; Designed & coded by Chickee Fuerman <span id="year"></span>
+        
+          <script>
+            // JavaScript code to get the current year
+            var yearElement = document.getElementById("year");
+            var currentYear = new Date().getFullYear();
+            yearElement.textContent = currentYear;
+          </script>
+  
         </div>
 
         <div class="six columns social">
