@@ -695,6 +695,20 @@ background-size: contain;
   background-image: radial-gradient(circle, black, transparent), url(../images/ethicalshopping/hero_bg.png);
 }
 
+/*Mobile Shopping Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+.mobileshopping_bg {
+  background-image: radial-gradient(circle, black, transparent), url(../images/mobileshopping/hero_bg.png);
+  min-height: 500px;
+}
+
+.mobileshopping_hero{
+  background-image: url(../images/mobileshopping/banner.png);
+}
+
+.mobileshopping_wrapper{
+  background-image: radial-gradient(circle, black, transparent), url(../images/mobileshopping/hero_bg.png);
+}
+
 /*Blog Laptop ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
 .blog{
   margin-top: 10%;
