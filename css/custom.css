@@ -1095,6 +1095,21 @@ there.
     .ethicalshopping_hero{
       background-image: url(../images/ethicalshopping/banner_mobile.png);
     }
+
+    /*Mobile Shopping Mobile ––––––––––––––––––––––––––––––––––––––––––––––––––-*/
+
+    .lm_logo{
+      width: 85%;
+    }
+
+    .mobileshopping_bg {
+      background-image: radial-gradient(circle, black, transparent), url(../images/mobileshopping/hero_bg.png);
+      min-height: 0px;
+    }
+   
+    .mobileshopping_hero{
+      background-image: url(../images/mobileshopping/banner_mobile.png);
+    }
 }
 
 
