@@ -702,7 +702,7 @@ background-size: contain;
 }
 
 .mobileshopping_hero{
-  background-image: url(../images/mobileshopping/banner.png);
+  background-image: url(../images/mobileshopping/banner.webp);
 }
 
 .mobileshopping_wrapper{
@@ -1125,7 +1125,7 @@ there.
     }
    
     .mobileshopping_hero{
-      background-image: url(../images/mobileshopping/banner_mobile.png);
+      background-image: url(../images/mobileshopping/banner.webp);
     }
 }
 
