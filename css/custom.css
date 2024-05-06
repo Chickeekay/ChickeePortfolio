@@ -864,8 +864,6 @@ there.
 
   .project_background h5, img{
     background-color:#121212;
-    background: rgba(0,0,0, .5);
-
   }
 
   /* Not sure why I put this originally but disabling it for now since it's being detedted as a problem
