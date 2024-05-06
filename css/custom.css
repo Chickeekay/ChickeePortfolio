@@ -1052,8 +1052,8 @@ there.
   }
 
   .button.mobile_view {
-    margin-top: 0 30px;
-    align-content: center;
+    margin-top: 30px;
+    align-content: top;
     display: block;
   }
 
