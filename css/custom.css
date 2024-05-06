@@ -9,6 +9,10 @@ body {
   /*transition:filter 300ms ease-in-out;*/
 }
 
+.laptop_view {
+  display: none;
+}
+
 /* Larger than phablet */
 @media(min-width: 550px) {
   h1 {
